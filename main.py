@@ -13,7 +13,7 @@ def help():
                  ]
 
     return help_list
-staged
+
 
 def welcome():
     """Displays welcome message on startup"""
@@ -34,6 +34,8 @@ def userloop():
         else:
             return size
 
+def redundant_function(hello):
+    return hello
 
 password = code_generator(mainloop())
 print('Your secret password is: {}'.format(password))
